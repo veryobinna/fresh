@@ -19,5 +19,6 @@ RUN chmod +x /usr/local/bin/entrypoint.sh
 # Copy the rest of the app files
 COPY . .
 
+EXPOSE 3000
 # Set the entrypoint
 ENTRYPOINT ["entrypoint.sh"]
